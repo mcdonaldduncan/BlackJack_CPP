@@ -120,7 +120,7 @@ int main()
 		{
 			dealerHand.push_back(DealCard(&deck));
 			cout << "Dealer Hit, recieved: " << dealerHand.back() << " HandSum: " << SumHand(&dealerHand) << endl;
-			cout << "Player Hand ";
+			cout << "Dealer Hand ";
 
 			for (int i = 0; i < dealerHand.size(); i++)
 			{
